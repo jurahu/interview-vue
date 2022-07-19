@@ -1,40 +1,30 @@
-# interview-vue
+# Interview React App
 
-This template should help get you started developing with Vue 3 in Vite.
+## Setup
 
-## Recommended IDE Setup
+`git clone git@github.com:jurahu/interview-vue.git && cd interview-vue && npm i`
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Warmup
 
-## Type Support for `.vue` Imports in TS
+Choose two warmups or even create your own to show us scoping fun and event loop fixing
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+1. Refactor promise -> async/await `fetchGamesAsync` or Refactor async/await -> promise `fetchBeerPromise`
+3. Why the timeouts are out of order? `timeout.ts`
+4. Binding issues `binding.ts`
+5. Fun with iterator fail and scoping `iteratorFail.ts`
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## Write a tree component
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+- Fellow team member got stuck with implementing a tree component,
+  everything seems broken and typescript with React seems overhelming
+- Please save him and guide him towards salvation
+- He got stuct with imports and some weird bug in properties
+- Let's do some pair programing
 
-## Customize configuration
+## Questions
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+- What would you do differently?
+- How you like to style components?
+- Would you use state management?
+- Would you connect the tree to global state when?
+- Any hints on organizing the project?
