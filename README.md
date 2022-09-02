@@ -1,4 +1,4 @@
-# Interview React App
+# Interview Vue App
 
 ## Setup
 
